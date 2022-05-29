@@ -170,7 +170,6 @@ a:hover {
   .al-notice{
     /* height: 600px; */
     padding: 10px 0 20px 120px;
-    background-color: #f9f9f9;
     margin-right: 10px;
     background-image: url(img/bg_notice_board.png);
     background-repeat: no-repeat;
@@ -225,6 +224,68 @@ a:hover {
     width: 200px;
     height: 30px;
   }
+  .onlie-info h6{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  .caption {
+    display: flex;
+    height: 600px;
+    align-items: stretch;
+  }
+  .content{
+    background-color: #f5f5f5;
+    width: 380px;
+    padding: 10px;
+    color: #000000;
+  }
+  .content-details{
+    display: flex;
+  }
+  .arrow-content{
+    display: flex;
+  }
+  .stdunt a{
+    color: #000000;
+    margin-left: 10px;
+  }
+  .content-details{
+    margin-left: 10px;
+  }
+  .foodter-container{
+    margin-top: 50px;
+  }
+  .last-img{
+    margin-left: 225px;
+  }
+  .arfin-web{
+    background-color: #a6a6a6;
+    width: 1020px;
+    margin-left: 225px;
+    height: 100px;
+  }
+  .arfin-web p{
+    margin-right: 15px;
+    float: right;
+  }
+  .arfin-web p a{
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .box {
+    width: 200px;
+  }
+  #don-1 {
+    order: 2;
+  }
+  #don {
+    order: 1;
+    flex-grow: 1;
+  }
+  
   #home-1 {
     order: 2;
   }
