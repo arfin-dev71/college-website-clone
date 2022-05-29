@@ -80,51 +80,159 @@ a:hover {
   padding: 5px;
   background-color: #4ba614;3
   }
-.page-3{
-  width: 680px;
-  /* background-color: #683091; */
-  display: flex;
-  
-
-  
-}
-
-.obline-info{
-  width: 340px;
-  color: #000000;
-  background-color: #f5f5f5;
-  padding: 10px;
-  border: 1px solid #d7d7d7;
-  height: 160px;
-
-}
-.obline-info a{
-  color: #000000;
-}
-.mojib-logo{
-  width: 340px;
-  padding: 10px;
-  background-color: #f5f5f5; 
-  border: 1px solid #d7d7d7;
-  margin: 0px 0px 0px 20px;
-  height: 160px;
 
 
-}
-.mojib-logo img{
-  height: 140px;
-}
-.admitions-on{
-  display: flex;
-}
-.bg-block-list{
-  margin-left: 5px;
-  background: url(bullet_arrow.png);
-  background-repeat: no-repeat;
-}
-.bg{
-  margin-left: 10px;
-}
-.color-form{
-  color: #666;
-}
+  /* homePage  */
+  .homepage {
+    display: flex;
+    /* height: 600px; */
+    align-items: stretch;
+    margin-top: 20px;
+  }
+  .box-2 {
+    width: 200px;
+  }
+  .box-1 p{
+    padding: 5px;
+    background-color: #4ba614;
+    color: white;
+    width: 200px;
+  }
+  .box-2{
+    /* background-color: #683091; */
+  }
+  .box-2 li{
+    color: #900;
+    padding: 5px;
+    margin-left: 5px;
+  }
+  .box-2 li a{
+    color: #666;
+  }
+  .box-2 p{
+    padding: 5px;
+    color: white;
+    background-color: #4ba614;
+    width: 780px;
+  }
+  .box-1 img{
+    height: 145px;
+    width: 135px;
+    margin-left: 30px;
+  }
+  .box-1 h6{
+    font-size: 12px;
+  }
+  .online{
+    background-color: #f5f5f5;
+    border: 1px solid gray;
+    width: 380px;
+  }
+  .admission-detail{
+    display: flex;
+  }
+ 
+  .online-Admission h4{
+    margin-left: 10px;
+  }
+  .admission-from{
+    background-image: url(bullet_arrow.png);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    width: 240px;
+  }
+  .admission-from a{
+    color: #000000;
+  }
+  .admission-from img{
+    margin-left: 10px;
+  }
+  .admission-img img{
+    width: 100px;
+    margin-left: 10px;
+  }
+  .mujib-logo{
+    background-color: #f5f5f5;
+    border: 1px solid gray;
+    width: 380px;
+    margin-left: 20px;
+  }
+  .mujib-logo img{
+    height: 160px;
+    margin: 10px;
+  }
+  .home-al-detail{
+    display: flex;
+  }
+  .home-notice{
+    background-color: #4ba614;
+  }
+  .al-notice{
+    /* height: 600px; */
+    padding: 10px 0 20px 120px;
+    background-color: #f9f9f9;
+    margin-right: 10px;
+    background-image: url(img/bg_notice_board.png);
+    background-repeat: no-repeat;
+
+  }
+  .submit{
+    border: none;
+    padding: 0px 20px;
+    background-image: linear-gradient(#666, #a6a6a6);
+    float: right;
+  }
+  hr{
+    color: #000000;
+    background-color: ;
+  }
+  .box-3{
+    padding: 5px;
+    background-color: #4ba614;
+    color: white;
+    width: 200px;
+  }
+  .al-notice-1{
+    padding: 10px 0 20px 120px;
+    background-color: #f9f9f9;
+    margin-right: 10px;
+    background-image: url(img/song.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+  }
+
+  .bg-link img{
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .bg-link a{
+    font-size: 12px;
+  }
+  .al-tap{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background: none;
+    text-decoration: underline;
+    font-size: 12px;
+    color: #666;
+    float: right;
+  }
+  .bd-audio audio{
+    width: 200px;
+    height: 30px;
+  }
+  #home-1 {
+    order: 2;
+  }
+  #home-2 {
+    order: 1;
+    flex-grow: 1;
+  }
+  .bd-image-civil img{
+    width: 190px;
+    margin-left: 5px;
+  }
